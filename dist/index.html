@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#7B5CFF" />
+
+    <title>BodyCraft — AI-анализ тела, персональные тренировки и питание</title>
+    <meta
+      name="description"
+      content="Получите анализ тела по фотографии, процент жира, персональные тренировки, питание и рекомендации искусственного интеллекта. Всё в одном приложении."
+    />
+    <link rel="canonical" href="https://bodycraft.fun/" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="BodyCraft" />
+    <meta property="og:locale" content="ru_RU" />
+    <meta property="og:url" content="https://bodycraft.fun/" />
+    <meta property="og:title" content="BodyCraft — AI-анализ тела, персональные тренировки и питание" />
+    <meta
+      property="og:description"
+      content="AI-анализ тела по фото: Body Score, процент жира, мышечная масса. Персональный план тренировок и питания от ИИ-тренера, который помнит всё о вашем прогрессе."
+    />
+    <meta property="og:image" content="https://bodycraft.fun/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="BodyCraft — AI-анализ тела по фотографии" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="BodyCraft — AI-анализ тела, тренировки и питание" />
+    <meta
+      name="twitter:description"
+      content="Анализ тела по фото, Body Score, персональный план тренировок и питания от ИИ-тренера."
+    />
+    <meta name="twitter:image" content="https://bodycraft.fun/og-image.jpg" />
+
+    <!-- Icons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png" />
+
+    <!-- Fonts: Space Grotesk (заголовки/лого) + Manrope (текст, кириллица) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+    />
+
+    <!-- Preload hero image (LCP) -->
+    <link rel="preload" as="image" href="./img/bodycraft-ai-coach-hero.webp" type="image/webp" />
+
+    <!-- JSON-LD: Organization + WebSite + SoftwareApplication + FAQPage -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://bodycraft.fun/#organization",
+          "name": "BodyCraft",
+          "url": "https://bodycraft.fun/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://bodycraft.fun/icon-512.png",
+            "width": 512,
+            "height": 512
+          },
+          "slogan": "Craft your best body"
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://bodycraft.fun/#website",
+          "url": "https://bodycraft.fun/",
+          "name": "BodyCraft",
+          "inLanguage": "ru-RU",
+          "publisher": { "@id": "https://bodycraft.fun/#organization" }
+        },
+        {
+          "@type": "SoftwareApplication",
+          "@id": "https://bodycraft.fun/#app",
+          "name": "BodyCraft — AI Fitness Coach",
+          "url": "https://my.bodycraft.fun/",
+          "operatingSystem": "Web",
+          "applicationCategory": "HealthApplication",
+          "description": "AI-анализ тела по фотографии, Body Score, персональные планы тренировок и питания, ИИ-тренер с памятью о вашем прогрессе.",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "RUB",
+            "description": "Бесплатный старт"
+          },
+          "featureList": [
+            "AI-анализ тела по фото",
+            "Body Score — интегральная оценка формы",
+            "Оценка процента жира и мышечной массы",
+            "Персональный план тренировок",
+            "Питание под цели и подсчёт КБЖУ по фото",
+            "ИИ-тренер в чате 24/7",
+            "Сравнение фото до и после",
+            "Календарь и отслеживание прогресса"
+          ],
+          "publisher": { "@id": "https://bodycraft.fun/#organization" },
+          "inLanguage": "ru-RU"
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://bodycraft.fun/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Можно ли определить процент жира по фотографии?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Да. Искусственный интеллект BodyCraft оценивает процент жира, мышечную массу и пропорции по фотографии в полный рост. Это оценочная метрика: она точнее визуального самоанализа и отлично подходит для отслеживания динамики, хотя не заменяет лабораторные методы вроде DEXA."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Насколько точен AI-анализ тела?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Точность зависит от качества фото: ровное освещение, нейтральный фон и облегающая одежда дают стабильный результат. Главная ценность — повторяемость: анализируя фото в одинаковых условиях, вы получаете достоверную динамику изменений тела от недели к неделе."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Как часто делать анализ тела?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Оптимально — раз в 7–14 дней. Визуальные изменения композиции тела накапливаются постепенно, и такой интервал показывает реальный прогресс, а не дневные колебания веса и воды."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Что такое Body Score?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Body Score — интегральная оценка вашей формы от 0 до 100. Она строится на проценте жира, мышечной массе, пропорциях, осанке и динамике изменений относительно вашей цели. Один показатель вместо десятка разрозненных метрик."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Какие фотографии подходят для анализа?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Фото в полный рост, при ровном дневном свете, на нейтральном фоне, в облегающей спортивной одежде. Форматы JPEG или PNG до 10 МБ. Есть приватный режим: результат не сохраняется в историю и память ИИ."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Чем BodyCraft отличается от персонального тренера?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "BodyCraft доступен 24/7, помнит каждую тренировку, травму и предпочтение в еде, корректирует план по свежему анализу тела и стоит в десятки раз дешевле. А ещё он не осуждает за пропущенный день — он адаптирует план."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Это бесплатно?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Начать можно бесплатно: анализ тела, базовый план тренировок и чат с ИИ-тренером доступны сразу после регистрации. Расширенные функции — подписка Premium."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+    <script type="module" crossorigin src="./assets/index-DxhqpgaB.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-CSkNuYp8.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
