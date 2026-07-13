@@ -3,5 +3,5 @@
 
 # Исключения (не игнорировать)
 !.gitignore
-!dist/
-!dist/**
+!docs/
+!docs/**
