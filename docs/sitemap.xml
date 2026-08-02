@@ -3,7 +3,7 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://bodycraft.fun/</loc>
-    <lastmod>2026-07-13</lastmod>
+    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
@@ -15,6 +15,58 @@
       <image:title>Персональный план тренировок и питания BodyCraft</image:title>
     </image:image>
   </url>
+  <!-- Статьи -->
+  <url>
+    <loc>https://bodycraft.fun/?article=ecto-meso-endo</loc>
+    <lastmod>2026-07-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://bodycraft.fun/img/ecto-meso-endo.webp</image:loc>
+      <image:title>Типы телосложения: как определить свой соматотип и тренироваться с генетикой, а не против неё</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://bodycraft.fun/?article=photo-calories</loc>
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://bodycraft.fun/img/photo-calories.webp</image:loc>
+      <image:title>Как считать калории и БЖУ по фото тарелки: точность ИИ против кухонных весов и глаза</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://bodycraft.fun/?article=ai-coach</loc>
+    <lastmod>2026-07-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://bodycraft.fun/img/ai-coach.webp</image:loc>
+      <image:title>ИИ-тренер: когда виртуальный коучинг работает не хуже живого тренера</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://bodycraft.fun/?article=muscle-asymmetry</loc>
+    <lastmod>2026-07-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://bodycraft.fun/img/muscle-asymmetry.webp</image:loc>
+      <image:title>Мышечная асимметрия: почему одна рука больше другой и что говорит наука об её исправлении</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://bodycraft.fun/?article=home-workouts</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://bodycraft.fun/img/home-workouts.webp</image:loc>
+      <image:title>Силовые тренировки дома: как расти без зала и железа — что говорит наука</image:title>
+    </image:image>
+  </url>
+  <!-- Юридические страницы -->
   <url><loc>https://bodycraft.fun/legal/privacy.html</loc><lastmod>2026-07-13</lastmod><priority>0.3</priority></url>
   <url><loc>https://bodycraft.fun/legal/terms.html</loc><lastmod>2026-07-13</lastmod><priority>0.3</priority></url>
   <url><loc>https://bodycraft.fun/legal/cookies.html</loc><lastmod>2026-07-13</lastmod><priority>0.3</priority></url>
